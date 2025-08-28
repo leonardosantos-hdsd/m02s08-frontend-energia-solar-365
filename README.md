@@ -118,3 +118,7 @@ m02s08-frontend-energia-solar-365/
 - Âncoras & espaçamento do header: .section { scroll-margin-top: 84px; } evita que o conteúdo fique “em baixo” do navbar fixo.
 
 - Select claro (Ex5): o #tipo do orçamento tem estilo próprio (fundo cinza claro) no final do index.css.
+
+## Resultado
+
+![alt text](/src/assets/image.png)
