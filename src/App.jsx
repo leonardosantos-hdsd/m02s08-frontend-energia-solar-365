@@ -1,12 +1,38 @@
 import Navbar from './components/Navbar.jsx';
+// import Hero from './components/Hero.jsx';
 import SobreNos from './components/SobreNos.jsx';
 import PorQueInvestir from './components/PorQueInvestir.jsx';
 import Produtos from './components/Produtos.jsx';
+// import Orcamento from './components/Orcamento.jsx';
+import Footer from './components/Footer.jsx';
+
+// import Navbar from '/src/components/Navbar.jsx';
+import Hero from '/src/components/Hero.jsx';
+// import SobreNos from '/src/components/SobreNos.jsx';
+// import PorQueInvestir from '/src/components/PorQueInvestir.jsx';
+// import Produtos from '/src/components/Produtos.jsx';
+import Orcamento from '/src/components/Orcamento.jsx';
+// import Footer from '/src/components/Footer.jsx';
 
 export default function App() {
   return (
     <>
+      {/* Navbar (componente) */}
       <Navbar />
+      {/* Hero (componente) */}
+      <Hero />
+      {/* <Hero showCtas={false} /> */}
+      {/* <Hero showCtas={true} /> */}
+      {/* Sobre Nós (componente) */}
+      <SobreNos />
+      {/* Por que investir (componente) */}
+      <PorQueInvestir />
+      {/* Produtos (componente) */}
+      <Produtos />
+      {/* Orçamento (componente) */}
+      <Orcamento />
+      {/* Footer (componente) */}
+      <Footer />
 
       {/* Início / Hero */}
       <div className='main' id='inicio'>
@@ -24,15 +50,7 @@ export default function App() {
         </section>
       </div>
 
-      {/* Sobre Nós (componente) */}
-      <SobreNos />
-      {/* Por que investir (componente) */}
-      <PorQueInvestir />
-      {/* Produtos (componente) */}
-      <Produtos />
-
       {/* Seções do menu */}
-
       {/* <section id='sobre' className='section'>
         <h2>Sobre Nós</h2>
         <p className='muted'>Conteúdo da seção sobre o projeto/time…</p>
@@ -51,12 +69,12 @@ export default function App() {
         </p>
       </section> */}
 
-      <section id='orcamento' className='section'>
+      {/* <section id='orcamento' className='section'>
         <h2>Orçamento</h2>
         <p className='muted'>
           Call to action: formulário/contatos para orçamento…
         </p>
-      </section>
+      </section> */}
     </>
   );
 }
