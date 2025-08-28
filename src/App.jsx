@@ -1,4 +1,5 @@
 import Navbar from './components/Navbar.jsx';
+import SobreNos from './components/SobreNos.jsx';
 
 export default function App() {
   return (
@@ -21,12 +22,10 @@ export default function App() {
         </section>
       </div>
 
-      {/* Seções alvo do menu */}
-      <section id='sobre' className='section'>
-        <h2>Sobre Nós</h2>
-        <p className='muted'>Conteúdo da seção sobre o projeto/time…</p>
-      </section>
+      {/* Sobre Nós (componente) */}
+      <SobreNos />
 
+      {/* Seções do menu */}
       <section id='investir' className='section'>
         <h2>Por que investir?</h2>
         <p className='muted'>Benefícios, impacto e métricas de resultado…</p>
