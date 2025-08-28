@@ -9,7 +9,7 @@ export default function Navbar() {
   return (
     <header className='navbar'>
       <div className='nav-inner'>
-        {/* (opcional) troque por seu logo */}
+        {/* {Logo} */}
         <a className='nav-logo' href='#inicio' aria-label='Ir para o início'>
           ☀️
         </a>
