@@ -1,5 +1,7 @@
 import Navbar from './components/Navbar.jsx';
 import SobreNos from './components/SobreNos.jsx';
+import PorQueInvestir from './components/PorQueInvestir.jsx';
+import Produtos from './components/Produtos.jsx';
 
 export default function App() {
   return (
@@ -24,19 +26,30 @@ export default function App() {
 
       {/* Sobre Nós (componente) */}
       <SobreNos />
+      {/* Por que investir (componente) */}
+      <PorQueInvestir />
+      {/* Produtos (componente) */}
+      <Produtos />
 
       {/* Seções do menu */}
-      <section id='investir' className='section'>
+
+      {/* <section id='sobre' className='section'>
+        <h2>Sobre Nós</h2>
+        <p className='muted'>Conteúdo da seção sobre o projeto/time…</p>
+      </section>
+       */}
+
+      {/* <section id='investir' className='section'>
         <h2>Por que investir?</h2>
         <p className='muted'>Benefícios, impacto e métricas de resultado…</p>
-      </section>
+      </section> */}
 
-      <section id='produtos' className='section'>
+      {/* <section id='produtos' className='section'>
         <h2>Produtos</h2>
         <p className='muted'>
           Lista/descrições dos produtos/serviços oferecidos…
         </p>
-      </section>
+      </section> */}
 
       <section id='orcamento' className='section'>
         <h2>Orçamento</h2>

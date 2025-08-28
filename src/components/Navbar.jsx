@@ -1,7 +1,7 @@
 export default function Navbar() {
   const items = [
-    { href: '#sobre', label: 'Sobre Nós' },
-    { href: '#investir', label: 'Por que investir?' },
+    { href: '#sobre-nos', label: 'Sobre Nós' },
+    { href: '#porque-investir', label: 'Por que investir?' },
     { href: '#produtos', label: 'Produtos' },
     { href: '#orcamento', label: 'Orçamento' },
   ];

@@ -36,7 +36,7 @@ export default function SobreNos() {
         {/* Imagem (coloque um arquivo em /public/img/sobre.jpg ou mude a URL abaixo) */}
         <div className='sobre-media'>
           <img
-            src='/img/sobre.jpg'
+            src='/assets/sobre.png'
             alt='Equipe e ações de coleta seletiva'
             onError={e => {
               // fallback simples para imagem online se a local não existir
